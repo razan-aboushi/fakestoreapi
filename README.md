@@ -1,6 +1,6 @@
 # fakestoreapi
 
-### Here we retrieve the products data from this API : https://fakestoreapi.com/docs and render them in main section as cards.
+### Here we retrieve the products data from this API : //fakestoreapi.com/docs and render them in main section as cards.
 
 
 ### Live Code of the page :
