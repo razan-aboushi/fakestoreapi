@@ -9,7 +9,7 @@ function Product(title, price, description, image) //assign 4 parameters to the 
   
   fetch('https://fakestoreapi.com/products')    //A fetch request is made to the //fakestoreapi.com/products API
     .then(response => response.json())
-    .then(prodData => 
+    .then(prodData =>           //Inside the second then() method, an empty array named products is created to store the objects created with the Product constructor.
         {
 
       let products = []; //creates an array of objects 
