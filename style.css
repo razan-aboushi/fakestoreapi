@@ -99,20 +99,22 @@ main {
   }
   
   .card {
-    width: 300px;
+    width: 325px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin: 10px;
+    margin: 15px;
     overflow: hidden;
     background-color: #fff;
     display: flex;
     flex-direction: column;
+   
   }
   
   .card img {
-    width: 100%;
+    width: 90%;
     height: 300px;
     object-fit:fill;
+    margin: 10px;
   }
   
   .card-body {
